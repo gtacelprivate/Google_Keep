@@ -11,6 +11,3 @@ This contains the step definitions for the BDD test steps.
 
 Page Objects used: Homepage.class, SitePage.class
 These page objects contain the functions/test methods.
-
- 
-
