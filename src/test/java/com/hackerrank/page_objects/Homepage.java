@@ -17,6 +17,7 @@ import static com.hackerrank.utils.main_functions.getDriver;
  */
 public class Homepage extends main_functions {
     private static WebDriverWait wait = new WebDriverWait(driver, 60);
+    
     public void verifyLatestNewsDisplayed() {
         WebElement latestNews = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//H2[@class='block-header__heading'][text()='Latest news']")));
         Assert.assertTrue(latestNews.isDisplayed());
