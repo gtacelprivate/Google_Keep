@@ -1,7 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### Maven template
 # IntelliJ
-.idea
 .settings
 .project
 .classpath
@@ -10,3 +9,5 @@
 
 # Mac
 .DS_Store
+/.idea/
+/target/
